@@ -30,10 +30,10 @@ def can_be_created_in_a_block(args = {:title=>'Home Alone', :release_date=>'1990
   # title == "Home Alone"
   # release_date == 1990
   
-  Movie.create do |m|
-    m.title = :args[:title]
-    m.release_date = :args[:release_date]
-  end
+  # Movie.create do |m|
+  #   m.title = :args[:title]
+  #   m.release_date = :args[:release_date]
+  # end
 end
 
 def can_get_the_first_item_in_the_database
